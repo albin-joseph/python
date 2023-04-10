@@ -5,4 +5,4 @@ print("Welecome to Python")
 
 #if we have to include double quotes inside a print statement, please follow the below format.
 print('Include the double quotes inside the print statement by wrap inside a single quote, as like this ""')
-print('He siad: "I going for a trip."')
+print('He siad: "I am going for a trip."')
