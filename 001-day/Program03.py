@@ -16,3 +16,8 @@ b = c
 print("See the swapped result\n")
 print("a: " + a)
 print("b: " + b)
+
+#Naming Convensions
+#Varible should be meaningfull and readable
+#If multiple word inlude in a name use underscore in between the words Eg: first_name
+#Variable name should not be a keyword
