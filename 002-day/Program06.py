@@ -15,3 +15,16 @@ print(3*3+3/3-3)
 print(3/3+3-3*3)
 print((3/3)+3*3-3)
 print(3/(3+3)*3-3)
+
+
+#A program to find out the BMI value
+#BMI =  weight/heigh*height
+
+height = input("Please enter your height: ") 
+weight = input("Please enter your weight: ")
+
+pre_bmi = float(weight)/(float(height) ** 2)
+
+bmi = int(pre_bmi)
+
+print("Your BMI is: " + str(bmi))
