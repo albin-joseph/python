@@ -19,3 +19,9 @@ This repository includes the Python program for beginners who are starting to le
 <summary>Conditional statement, Logical operators, code blocks and scopes</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/003-day">003-day</a>
 </details>
+
+## Day 4
+<details>
+<summary>List and Randomisation</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/004-day">004-day</a>
+</details>
