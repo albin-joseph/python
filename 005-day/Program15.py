@@ -23,3 +23,15 @@ for height in students_heights:
 average_height = "{:.2f}".format(total_height/len(students_heights))
 
 print(f"Average height is: {average_height}")
+
+#By using the range function we can list the values between the range
+
+#print numbers between 1 to 10
+for number in range(1, 10):
+    print(number)
+    
+#We can add a step varibale in rnge function
+#Print numbers which divisible by 5 between 0 and 50
+for n in range(0, 50, 5):
+    print(n)
+
