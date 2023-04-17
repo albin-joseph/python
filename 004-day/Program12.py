@@ -24,4 +24,6 @@ states_in_india.extend(["Karanadaka", "Andra Pradesh"])
 
 print(states_in_india)
 
+print(states_in_india[4])
+
  
