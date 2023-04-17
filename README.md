@@ -23,3 +23,9 @@ This repository includes the Python program for beginners who are starting to le
 <summary>List and Randomisation</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/004-day">004-day</a>
 </details>
+
+### Day 5
+<details>
+<summary>Loops in Python</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/005-day">005-day</a>
+</details>
