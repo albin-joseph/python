@@ -1,5 +1,4 @@
 ## Overview
-Python Learning Project
 
 This repository contains code and resources for learning Python programming language. The goal of this respository is to provide a structured and organized way to learn Python, from the basics to more advanced topics.
 
