@@ -15,3 +15,11 @@ my_function()
     #Reuse the code & Reduce number of lines in our program
     #Bring modularity
     
+# write a function to find out the sum of two intigers
+
+def sum(a,b):
+    return a + b
+
+result = sum(3,9)
+
+print(result)
