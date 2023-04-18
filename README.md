@@ -1,5 +1,15 @@
 ## Overview
-This repository includes the Python program for beginners who are starting to learn Python.
+Python Learning Project
+
+This repository contains code and resources for learning Python programming language. The goal of this respository is to provide a structured and organized way to learn Python, from the basics to more advanced topics.
+
+The main contents of this repository include:
+
+- Python scripts with examples of fundamental concepts such as variables, data types, control flow statements, functions, and modules.
+
+This repository is intended for anyone who wants to learn Python, from complete beginners to experienced programmers who want to improve their skills in Python. Contributions and feedback are welcome and encouraged.
+
+To get started with this repository, clone the repository to your local machine
 ### Day 1
 <details>
 <summary>Basic print program like print and input a value</summary>
