@@ -29,3 +29,9 @@ This repository includes the Python program for beginners who are starting to le
 <summary>Loops in Python</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/005-day">005-day</a>
 </details>
+
+### Day 6
+<details>
+<summary>Python functions</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/006-day">006-day</a>
+</details>
