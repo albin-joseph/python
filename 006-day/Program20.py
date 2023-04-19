@@ -28,3 +28,7 @@ def multiply(x,y):
     return x * y
 
 print(multiply(7,3))
+
+#Intendation
+#In python code blocks ensure to be in the same indentation
+#It's will be unique space or unique Tab space between the blocks
