@@ -23,3 +23,8 @@ def sum(a,b):
 result = sum(3,9)
 
 print(result)
+
+def multiply(x,y):
+    return x * y
+
+print(multiply(7,3))
