@@ -44,3 +44,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Code blocks, functions and while loops</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/006-day">006-day</a>
 </details>
+
+### Day 7
+<details>
+<summary>More about functions and loops</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/007-day">007-day</a>
+</details>
