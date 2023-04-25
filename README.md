@@ -50,3 +50,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>More about functions and loops</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/007-day">007-day</a>
 </details>
+
+### Day 8
+<details>
+<summary>More about functions and parameter passing</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/008-day">008-day</a>
+</details>
