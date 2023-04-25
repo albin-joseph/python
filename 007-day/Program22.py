@@ -17,6 +17,8 @@ for _ in range(word_length):
 
 print(display)
 
+no_of_lifes = 0
+
 for _ in range(word_length):
     #Guess a letter
     guess = input("Guess a letter: ").lower()
@@ -26,6 +28,12 @@ for _ in range(word_length):
         letter = selected_word[position]
         if letter == guess:
             display[position] = letter
+            no_of_lifes += 1
 
     print(display)
-print(f"final guess: ${display}")
+print(f"final guess: ${display}, ${word_length}, ${no_of_lifes}")
+
+if no_of_lifes == word_length:
+    print('You won the game')
+else:
+    print('You failed')
