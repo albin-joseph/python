@@ -56,3 +56,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>More about functions and parameter passing</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/008-day">008-day</a>
 </details>
+
+### Day 9
+<details>
+<summary>Dictionies and Nesting</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/009-day">009-day</a>
+</details>

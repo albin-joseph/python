@@ -21,3 +21,11 @@ getFullName("Albin", "Joseph")
 #This will reduce the error prone situations
 getFullName(firstName="Anu", lastName="Jose")
 
+
+#Below program for calculate the area of a wall
+
+def getTheArea(height, width):
+    return height * width
+
+areaOfWall = getTheArea(5,6.5)
+print(f"Area of the wall is: {areaOfWall}")
