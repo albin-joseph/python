@@ -59,6 +59,6 @@ To get started with this repository, clone the repository to your local machine
 
 ### Day 9
 <details>
-<summary>Dictionies and Nesting</summary>
+<summary>Dictionaries and Nesting</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/009-day">009-day</a>
 </details>
