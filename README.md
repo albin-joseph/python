@@ -62,3 +62,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Dictionaries and Nesting</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/009-day">009-day</a>
 </details>
+
+### Day 10
+<details>
+<summary>Functions with outputs.</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/010-day">010-day</a>
+</details>
