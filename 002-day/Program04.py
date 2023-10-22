@@ -1,6 +1,6 @@
 #In this section we are going to learn to more about Data Types
 #In python these are the data types String, Intiger, Float & Boolean
-# As any other languages operation between same data types only allow in Python.
+# As any other languages operation between same data types only allowed in Python.
 #If any operation we have to do between two data types we need to cast the one of the varibale type to the type of the other variable.
 
 #Intiger convert to string and print it

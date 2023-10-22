@@ -12,5 +12,5 @@ if words_length > 0:
 else:
     print("Please try with a valid sentence.")
     
-print("We can write this program by using randochoice method also")
+print("We can write this program by using random choice method also")
 print(random.choice(words))
