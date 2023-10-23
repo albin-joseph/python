@@ -7,15 +7,14 @@ HARD_LEVEL = 5
 actual_value = random.randint(1,100)
 
 def check_guess(guess_value):
-    print(f"actual_value: {actual_value}")
     if(guess_value == actual_value):
-        print("You won")
+        print("**************You won***********")
         return True
     elif(guess_value > actual_value):
-        print("Too high")
+        print("<<<<<<<<<<<Too high>>>>>>>>>>>>.")
         return False
     else:
-        print("Too low")
+        print(">>>>>>>>>>>>>>>Too low<<<<<<<<<<<<<<<")
         return False
     
 def play_game():
@@ -23,7 +22,7 @@ def play_game():
     difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
     difficulty_value = difficulties[difficulty]
     for i in range(0,difficulty_value):
-        print(f"You have remaining {difficulty_value - i}")
+        print(f"You have remaining {difficulty_value - i} chance")
         guess_number = int(input('Guess a number between (1,100): '))
         if(check_guess(guess_number)):
             break
