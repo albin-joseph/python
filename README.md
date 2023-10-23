@@ -80,3 +80,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Scope in python</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/012-day">012-day</a>
 </details>
+
+### Day 12
+<details>
+<summary>About how to approach programming challenges(Notes only)</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/013-day">013-day</a>
+</details>
