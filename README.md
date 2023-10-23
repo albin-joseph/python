@@ -74,3 +74,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Blackjack game implementation. It's for summaries and practice what we learned in previous sections</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/011-day">011-day</a>
 </details>
+
+### Day 12
+<details>
+<summary>Scope in python</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/012-day">012-day</a>
+</details>
