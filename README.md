@@ -81,8 +81,14 @@ To get started with this repository, clone the repository to your local machine
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/012-day">012-day</a>
 </details>
 
-### Day 12
+### Day 13
 <details>
 <summary>About how to approach programming challenges(Notes only)</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/013-day">013-day</a>
+</details>
+
+### Day 14
+<details>
+<summary>Coding challenge based on previous sessions</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/014-day">013-day</a>
 </details>
