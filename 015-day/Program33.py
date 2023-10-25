@@ -45,7 +45,7 @@ coins = {
     }
 }
 
-profit = 0
+profit = 0.0
 
 def print_report():
     print(f"Water: {resources['water']}ml")
@@ -72,35 +72,42 @@ def accept_money():
 
 def is_amount_sufficient_for(drink_name, accepted_amount):
     cost_for_drink = menu[drink_name]['cost']
-    print(cost_for_drink)
     if(cost_for_drink > accepted_amount):
         return False
     else:
+        balance = accepted_amount - cost_for_drink
+        global profit 
+        profit += cost_for_drink
+        if(balance > 0):
+            print(f"You have balance ${round(balance,2)}")
         return True
     
 
 def make_drink(drink_name):
-    print('Enjoy the drink')
+    ingradients = menu[drink_name]['ingredients']
+    for key in ingradients:
+        resources[key] -= ingradients[key]
+    print(f"Please enjoy {drink_name}")
+    
 
-
-user_input = input("What would you like? (espresso/latte/cappuccino): ")
-is_sufficient = is_suffient_resources(user_input)
-if(user_input == 'espresso' or user_input == 'latte' or user_input == 'cappuccino'):
-    if(is_sufficient):
-        print('Availa')
-        accepted_amount = accept_money()
-        print(f"accepted money: {accepted_amount}")
-        is_sufficient_amount = is_amount_sufficient_for(user_input, accepted_amount)
-        if(is_sufficient_amount):
-            print('Amount enough')
-            make_drink()
+def run_machine():
+    is_on = True
+    while(is_on):
+        choice = input("What would you like? (espresso/latte/cappuccino): ")
+        if(choice == 'espresso' or choice == 'latte' or choice == 'cappuccino'):
+            if(is_suffient_resources(choice)):
+                accepted_amount = accept_money()
+                if(is_amount_sufficient_for(choice, accepted_amount)):
+                    make_drink(choice)
+                else:
+                    print('Amount is not sufficient.')
+            else:
+                print('Sorry, resources not available.')
+        elif(choice == 'report'):
+            print_report()
+        elif(choice == 'off'):
+            is_on = False
         else:
-            print('Amount not enough refund')
-    else:
-        print('Sorry not avail')
-elif(user_input == 'report'):
-    print_report()
-elif(user_input == 'off'):
-    exit
-else:
-    print('Not a valid input')
+            print('Not a valid input')
+        
+run_machine()
