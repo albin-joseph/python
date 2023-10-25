@@ -79,7 +79,7 @@ def is_amount_sufficient_for(drink_name, accepted_amount):
         return True
     
 
-def make_drink():
+def make_drink(drink_name):
     print('Enjoy the drink')
 
 
@@ -100,7 +100,7 @@ if(user_input == 'espresso' or user_input == 'latte' or user_input == 'cappuccin
         print('Sorry not avail')
 elif(user_input == 'report'):
     print_report()
-elif(user_input == 'Off'):
+elif(user_input == 'off'):
     exit
 else:
     print('Not a valid input')
