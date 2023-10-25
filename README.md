@@ -90,5 +90,11 @@ To get started with this repository, clone the repository to your local machine
 ### Day 14
 <details>
 <summary>Coding challenge based on previous sessions</summary>
- <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/014-day">013-day</a>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/014-day">014-day</a>
+</details>
+
+### Day 15
+<details>
+<summary>Python local environment configuration & Coffe maker program</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/015-day">015-day</a>
 </details>
