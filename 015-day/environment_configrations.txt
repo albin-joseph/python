@@ -1,0 +1,7 @@
+In this session we are going to install and configure python for development in our system.
+1. Install python
+    a. In windows
+    b. In Mac
+2. Install PyCharm
+    a. In windows
+    b. In Mac
