@@ -63,14 +63,14 @@ def is_suffient_resources(drink_name):
     return True
 
     
-def accept_money_for():
+def accept_money():
     accepted_money = 0.0
     for key in coins:
         number_of_coins = input(f"How many number of {key} inserted: ")
         accepted_money += float(number_of_coins) * coins[key]['value']
     return accepted_money
 
-def is_amount_sufficient(drink_name, accepted_amount):
+def is_amount_sufficient_for(drink_name, accepted_amount):
     cost_for_drink = menu[drink_name]['cost']
     print(cost_for_drink)
     if(cost_for_drink > accepted_amount):
@@ -78,12 +78,29 @@ def is_amount_sufficient(drink_name, accepted_amount):
     else:
         return True
     
-print_report()
+
+def make_drink():
+    print('Enjoy the drink')
+
+
 user_input = input("What would you like? (espresso/latte/cappuccino): ")
 is_sufficient = is_suffient_resources(user_input)
-if(is_sufficient):
-    print('Availa')
-    accepted_amount = accept_money_for(user_input)
-    print(f"accepted money: {accepted_amount}")
+if(user_input == 'espresso' or user_input == 'latte' or user_input == 'cappuccino'):
+    if(is_sufficient):
+        print('Availa')
+        accepted_amount = accept_money()
+        print(f"accepted money: {accepted_amount}")
+        is_sufficient_amount = is_amount_sufficient_for(user_input, accepted_amount)
+        if(is_sufficient_amount):
+            print('Amount enough')
+            make_drink()
+        else:
+            print('Amount not enough refund')
+    else:
+        print('Sorry not avail')
+elif(user_input == 'report'):
+    print_report()
+elif(user_input == 'Off'):
+    exit
 else:
-    print('Sorry not avail')
+    print('Not a valid input')
