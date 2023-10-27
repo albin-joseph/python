@@ -12,3 +12,5 @@ quizz_brain.get_next_question()
 
 while(quizz_brain.still_has_question()):
     quizz_brain.get_next_question()
+
+print(f"User score : {quizz_brain.score}")
