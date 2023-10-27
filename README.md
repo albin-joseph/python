@@ -102,5 +102,11 @@ To get started with this repository, clone the repository to your local machine
 ### Day 16
 <details>
 <summary>Object Oriented Programing concepts</summary>
- <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/015-day">016-day</a>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/016-day">016-day</a>
+</details>
+
+### Day 17
+<details>
+<summary>How to create class</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/017-day">017-day</a>
 </details>
