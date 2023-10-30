@@ -2,9 +2,14 @@
 tuples and import modules.
 '''
 #pip install turtle==0.0.1 to install turtle module
-from turtle import Turtle, Screen
+import turtle
 
-timmy_the_turtle = Turtle()
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
 
-screen = Screen()
-screen.exitonclick()
+turtle.done()
