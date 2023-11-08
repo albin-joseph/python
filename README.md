@@ -117,9 +117,14 @@ To get started with this repository, clone the repository to your local machine
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/018-day">018-day</a>
 </details>
 
-
 ### Day 19
 <details>
 <summary>Intermediate Instances, State and Higher Order Functions</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/019-day">019-day</a>
+</details>
+
+### Day 20
+<details>
+<summary>Classical Snake Game Part-1</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/020-day">020-day</a>
 </details>
