@@ -125,6 +125,12 @@ To get started with this repository, clone the repository to your local machine
 
 ### Day 20
 <details>
-<summary>Classical Snake Game Part-1</summary>
+<summary>Classical Snake Game</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/020-day">020-day</a>
+</details>
+
+### Day 21
+<details>
+<summary>Inheritance</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/021-day">021-day</a>
 </details>
