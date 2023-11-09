@@ -57,6 +57,4 @@ while game_is_on:
         ball.reset_position()
         
     
-
-
 screen.exitonclick()

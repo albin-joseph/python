@@ -134,3 +134,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Inheritance</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/021-day">021-day</a>
 </details>
+
+### Day 22
+<details>
+<summary>Classical PONG Game</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/022-day">022-day</a>
+</details>
