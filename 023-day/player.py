@@ -11,6 +11,7 @@ class Player(Turtle):
         self.shapesize(stretch_len=1, stretch_wid=1)
         self.goto(STARTING_POSITION)
         self.color("red")
+        self.left(90)
         self.penup()
     
     def go_up(self):
