@@ -8,11 +8,10 @@ class Player(Turtle):
     def __init__(self) -> None:
         super().__init__()
         self.shape("turtle")
-        self.shapesize(stretch_len=1, stretch_wid=1)
+        self.penup()
         self.goto(STARTING_POSITION)
         self.color("red")
-        self.left(90)
-        self.penup()
+        self.setheading(90)
     
     def go_up(self):
         new_y = self.ycor() + MOVE_DISTANCE
