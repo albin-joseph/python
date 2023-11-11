@@ -140,3 +140,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>Classical PONG Game</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/022-day">022-day</a>
 </details>
+
+### Day 23
+<details>
+<summary>Classical road cross game</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/023-day">023-day</a>
+</details>
