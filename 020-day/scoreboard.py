@@ -8,7 +8,7 @@ class Scoreboard(Turtle):
     def __init__(self) -> None:
         super().__init__()
         self.score = 0
-        self.color("White")
+        self.color("white")
         self.penup()
         self.goto(0,270)
         self.hideturtle()
