@@ -45,6 +45,7 @@ while game_is_on:
         #game_is_on = False
         #scoreboard.game_over()
         scoreboard.reset()
+        snake.reset()
     
     #Detect collision with tail
     for segment in snake.segments[1:]:
@@ -52,6 +53,7 @@ while game_is_on:
             #game_is_on = False
             #scoreboard.game_over()
             scoreboard.reset()
+            snake.reset()
     
 
 screen.exitonclick()
