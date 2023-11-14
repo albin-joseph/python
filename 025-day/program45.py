@@ -23,3 +23,29 @@ import pandas
 data = pandas.read_csv(f"{os.getcwd()}/025-day/weather_data.csv")
 print(data)
 print(data["temp"])
+
+data_dict = data.to_dict()
+print(data_dict)
+
+temp_list = data["temp"].to_list()
+print(temp_list)
+
+average_temp = sum(temp_list)/len(temp_list)
+print(average_temp)
+
+#Get column
+print(data["temp"])
+
+#Get Row
+print(data[data.day == "Monday"])
+print(data[data.temp == data.temp.max()])
+
+
+#Create Data Frame from scratch
+data_dict = {
+    "students":["Albin", "Anu", "Emmanuel", "Rebecca"],
+    "scores": [90, 95, 100, 100]
+}
+
+data = pandas.DataFrame(data_dict)
+data.to_csv(f"{os.getcwd()}/025-day/student_scores.csv")
