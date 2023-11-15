@@ -152,3 +152,9 @@ To get started with this repository, clone the repository to your local machine
 <summary>File Read Write & Modify</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/024-day">024-day</a>
 </details>
+
+### Day 25
+<details>
+<summary>Data Analysis in Python and implementations using `pandas` packages</summary>
+ <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/025-day">025-day</a>
+</details>
