@@ -150,7 +150,7 @@ To get started with this repository, clone the repository to your local machine
 ### Day 24
 <details>
 <summary>File Read Write & Modify</summary>
- <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/024-day">024-day</a>
+ <!-- <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/024-day">024-day</a> -->
     -In this section we mainly focussing on file operations
         * How to open a file
         * How to read, write and modify a file
