@@ -166,5 +166,12 @@ In this section, we focus on file operations:
 ### Day 25
 <details>
 <summary>Data Analysis in Python and implementations using `pandas` packages</summary>
- <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/025-day">025-day</a>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/025-day)
+
+ In this section, we focus on the basics of data analysis and related frameworks or packages available in python:
+
+ - CSV file operations
+ - Pandas library
+
 </details>
