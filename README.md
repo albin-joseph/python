@@ -175,3 +175,11 @@ In this section, we focus on file operations:
  - Pandas library
 
 </details>
+
+### Day 26
+<details>
+<summary>List & Dictionary comprehensions</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/026-day)
+
+</details>
