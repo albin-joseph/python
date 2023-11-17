@@ -183,3 +183,11 @@ In this section, we focus on file operations:
  - [Code Link](https://github.com/albin-joseph/python/tree/main/026-day)
 
 </details>
+
+### Day 27
+<details>
+<summary>GUI programs</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/027-day)
+
+</details>
