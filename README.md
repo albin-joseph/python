@@ -127,6 +127,9 @@ To get started with this repository, clone the repository to your local machine
 <details>
 <summary>Classical Snake Game</summary>
  <a name="anchor"><a href="https://github.com/albin-joseph/python/tree/main/020-day">020-day</a>
+
+  #### Game Video
+  https://github.com/albin-joseph/python/assets/4199704/9d19fe88-36e5-483a-b8fe-f7a5d80cf78a
 </details>
 
 ### Day 21
