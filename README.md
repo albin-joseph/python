@@ -187,8 +187,6 @@ In this section, we focus on file operations:
 
 </details>
 
-
-
 ### Day 27
 <details>
 <summary>GUI programs</summary>
