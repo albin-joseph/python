@@ -189,8 +189,16 @@ In this section, we focus on file operations:
 
 ### Day 27
 <details>
-<summary>GUI programs</summary>
+<summary>GUI programs - tkinter</summary>
 
  - [Code Link](https://github.com/albin-joseph/python/tree/main/027-day)
+
+</details>
+
+### Day 28
+<details>
+<summary>More GUI programs - tkinter</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/028-day)
 
 </details>
