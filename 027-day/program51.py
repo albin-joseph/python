@@ -7,7 +7,11 @@ window.minsize(width=500, height=300)
 
 #Label
 my_label = tkinter.Label(text="I am Label", font=("Arial", 24, "bold"))
-my_label.pack()
+#By using place keyword used to decide the widget location.
+my_label.place(x=0, y=0)
+
+#Other than place we can use Grid to arrange items in screen.
+# my_label.pack()
 
 def button_clicked():
     my_label.config(text=input.get())
@@ -18,6 +22,11 @@ button.pack()
 
 input = tkinter.Entry()
 input.pack()
+
+text = tkinter.Text(height=5, width=25)
+
+text.focus()
+text.pack()
 
 #It hold the window on the screen
 window.mainloop()
