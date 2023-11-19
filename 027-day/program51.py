@@ -9,6 +9,16 @@ window.minsize(width=500, height=300)
 my_label = tkinter.Label(text="I am Label", font=("Arial", 24, "bold"))
 my_label.pack()
 
+def button_clicked():
+    my_label.config(text=input.get())
+    print("button clicked")
+
+button = tkinter.Button(text="Click Me", command=button_clicked)
+button.pack()
+
+input = tkinter.Entry()
+input.pack()
+
 #It hold the window on the screen
 window.mainloop()
 
