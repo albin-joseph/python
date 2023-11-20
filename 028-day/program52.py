@@ -35,12 +35,13 @@ canvas.create_image(100,112, image=tomato_image)
 canvas.create_text(100,130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 canvas.grid(row=1, column=1)
 
-start_button = Button(text="Start")
-start_button.config(bg=YELLOW)
+start_button = Button(text="Start", highlightthickness=0, bg=YELLOW)
 start_button.grid(row=2, column=0)
 
-stop_button = Button(text="Stop")
-stop_button.config(bg=YELLOW)
+stop_button = Button(text="Reset", highlightthickness=0, bg=YELLOW)
 stop_button.grid(row=2, column=2)
+
+check_mark = Label(text="✓", fg=GREEN, bg=YELLOW)
+check_mark.grid(row=2, column=1)
 
 window.mainloop()
