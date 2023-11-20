@@ -26,7 +26,7 @@ window.title("pomodoro")
 window.config(padx=100, pady=50, bg=YELLOW)
 
 timer_label = Label(text="Timer")
-timer_label.config(bg=YELLOW, font=(FONT_NAME, 35, "bold"))
+timer_label.config(bg=YELLOW, font=(FONT_NAME, 35, "bold"), fg=GREEN)
 timer_label.grid(row=0, column=1)
 
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
