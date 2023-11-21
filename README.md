@@ -202,3 +202,11 @@ In this section, we focus on file operations:
  - [Code Link](https://github.com/albin-joseph/python/tree/main/028-day)
 
 </details>
+
+### Day 29
+<details>
+<summary>More GUI programs - Password Manager</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/029-day)
+
+</details>
