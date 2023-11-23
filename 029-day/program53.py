@@ -3,6 +3,7 @@ import os
 from tkinter import *
 from tkinter import messagebox
 from random import choice, randint, shuffle
+import json
 #In thi task include following things
 
 #------------------------ GENERATE PASSWORD --------------------#
@@ -32,19 +33,54 @@ def save_credential():
     email = email_entry.get()
     password = password_entry.get()
     
+    
     if len(website) > 0 and len(email) > 0 and len(password) > 0:
     
         is_ok = messagebox.askokcancel(title=website, message=f"These are the details entered: \nEmail: {email}"
                             f"\nPaasword: {password}\n Is it ok to save?"
                             )
         if is_ok:
-            with open(f"{os.getcwd()}/029-day/data.txt", "a") as data_file:
-                data_file.write(f"{website} | {email} | {password}\n")
-                website_entry.delete(0, END)
-                password_entry.delete(0, END)
+            new_data = {
+                website: {
+                   "email": email,
+                   "password": password 
+                }
+            }
+            try:
+                with open(f"{os.getcwd()}/029-day/data.json", "r") as data_file:
+                    data = json.load(data_file)
+            except FileNotFoundError:
+                with open(f"{os.getcwd()}/029-day/data.json", "w") as data_file:
+                    json.dump(new_data, data_file, indent=4)
+            else:
+                 data.update(new_data)
+                 with open(f"{os.getcwd()}/029-day/data.json", "w") as data_file:
+                    json.dump(data, data_file, indent=4)
+            finally:
+                    website_entry.delete(0, END)
+                    password_entry.delete(0, END)
     else:
         messagebox.showinfo(title="Pasword manager", message="Please enter all the values")
-
+        
+#------------------------ FIND_APSSWORD ---------------------------------#
+def find_password():
+    website = website_entry.get()
+    if len(website) > 0:
+        try:
+            with open(f"{os.getcwd()}/029-day/data.json") as data_file:
+                data = json.load(data_file)
+        except:
+            messagebox.showinfo(title="Pasword manager", message="No Data File Found")
+        else:
+            if website in data:
+                email = data[website]["email"]
+                password = data[website]["password"]
+                messagebox.showinfo(title=website, message=f"Email: {email}\n Password: {password}")
+            else:
+                messagebox.showinfo(title="Pasword manager", message="No Record Found") 
+                    
+    else:
+        messagebox.showinfo(title="Pasword manager", message="Please enter website name")
 #------------------------ CREATE UI -----------------------------#
 
 window = Tk()
@@ -60,9 +96,13 @@ canvas.grid(row=0, column=1)
 website_label = Label(text="Website:")
 website_label.grid(row=1, column=0)
 
-website_entry = Entry(width=35)
+website_entry = Entry(width=21)
 website_entry.focus()
-website_entry.grid(row=1, column=1, columnspan=2)
+website_entry.grid(row=1, column=1)
+
+search_button = Button(text="Search", command=find_password)
+search_button.config(width=9)
+search_button.grid(row=1, column=2)
 
 email_label = Label(text="Email/Username:")
 email_label.grid(row=2, column=0)
