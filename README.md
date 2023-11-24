@@ -219,3 +219,11 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 31
+<details>
+<summary>Flash card program</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/031-day)
+
+</details>
+
