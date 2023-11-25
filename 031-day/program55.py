@@ -4,9 +4,18 @@ import os
 import random
 
 BACKGROUND_COLOR = "#B1DDC6"
-data = pandas.read_csv(f"{os.getcwd()}/031-day/data/french_words.csv")
-to_learn = data.to_dict(orient="records")
 current_card = {}
+to_learn = {}
+
+try:
+    data = pandas.read_csv(f"{os.getcwd()}/031-day/data/words_to_learn.csv")
+except FileNotFoundError:
+    original_data = pandas.read_csv(f"{os.getcwd()}/031-day/data/french_words.csv")
+    to_learn = original_data.to_dict(orient="records")
+else:
+    to_learn = data.to_dict(orient="records")  
+
+
 #flip_timer
 
 def next_card():
@@ -16,17 +25,20 @@ def next_card():
     canvas.itemconfig(card_title, text="French", fill="black")
     canvas.itemconfig(card_word, text=current_card["French"], fill="black")
     canvas.itemconfig(card_background, image=card_front_img)
-    
     flip_timer = window.after(3000, flip_card)
 
 def flip_card():
-    global current_card
     canvas.itemconfig(card_title, text="English", fill="white")
     canvas.itemconfig(card_word, text=current_card["English"], fill="white")
     canvas.itemconfig(card_background, image=card_back_img)
     
 def is_known():
-    pass
+    to_learn.remove(current_card)
+    print(len(to_learn))
+    data = pandas.DataFrame(to_learn)
+    data.to_csv(f"{os.getcwd()}/031-day/data/words_to_learn.csv")
+    next_card()
+    
 
 window = Tk()
 window.title("Flashy")
@@ -47,11 +59,11 @@ canvas.config(bg=BACKGROUND_COLOR, highlightthickness=0)
 canvas.grid(row=0, column=0, columnspan=2)
 
 cross_image = PhotoImage(file=f"{os.getcwd()}/031-day/images/wrong.png")
-unknown_button = Button(image=cross_image, highlightthickness=0)
+unknown_button = Button(image=cross_image, highlightthickness=0, command=next_card)
 unknown_button.grid(row=1, column=0)
 
 check_image = PhotoImage(file=f"{os.getcwd()}/031-day/images/right.png")
-known_button = Button(image=check_image, highlightthickness=0, command=next_card)
+known_button = Button(image=check_image, highlightthickness=0, command=is_known)
 known_button.grid(row=1, column=1)
 
 next_card()
