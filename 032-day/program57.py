@@ -5,4 +5,6 @@ print(now)
 
 year = now.year
 
-print(year)
+week_day = now.weekday()
+
+print(now, year, week_day)
