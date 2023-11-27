@@ -227,5 +227,13 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 32
+<details>
+<summary>Email SMTP and datetime module</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/032-day)
+
+</details>
+
 
 
