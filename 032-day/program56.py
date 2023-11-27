@@ -9,8 +9,7 @@ import smtplib
 my_email = "mygmail@gmail.com"
 password = "*******"
 
-connection = smtplib.SMTP("smtp.gmail.com", port=587)
-connection.starttls()
-connection.login(user=my_email, password=password)
-connection.sendmail(from_addr=my_email, to_addrs="my_another@gmail.com", msg="subject:Hello\n\n This is the body of the email")
-connection.close()
+with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
+    connection.starttls()
+    connection.login(user=my_email, password=password)
+    connection.sendmail(from_addr=my_email, to_addrs="my_another@gmail.com", msg="subject:Hello\n\n This is the body of the email")
