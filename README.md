@@ -236,4 +236,13 @@ In this section, we focus on file operations:
 </details>
 
 
+### Day 33
+<details>
+<summary>About API</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/033-day)
+
+</details>
+
+
 
