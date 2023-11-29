@@ -244,5 +244,13 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 34
+<details>
+<summary>GUI Quizz App</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/034-day)
+
+</details>
+
 
 
