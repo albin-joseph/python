@@ -252,6 +252,7 @@ In this section, we focus on file operations:
 
 </details>
 
+
 ### Day 35
 <details>
 <summary>Key, Authentication & Environment variables</summary>
