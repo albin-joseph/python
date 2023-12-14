@@ -8,6 +8,7 @@ weather_params = {
     "cnt": 4
 }
 
+
 response = requests.get(OWM_ENDPOINT,params=weather_params)
 print(response.status_code)
 response.raise_for_status()
