@@ -252,12 +252,19 @@ In this section, we focus on file operations:
 
 </details>
 
-
 ### Day 35
 <details>
 <summary>Key, Authentication & Environment variables</summary>
 
  - [Code Link](https://github.com/albin-joseph/python/tree/main/035-day)
+
+</details>
+
+### Day 36
+<details>
+<summary>Stock Monitoring App</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/036-day)
 
 </details>
 
