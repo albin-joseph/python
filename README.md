@@ -268,4 +268,10 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 37
+<details>
+<summary>Habit Tracking Project</summary>
 
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/037-day)
+
+</details>
