@@ -274,4 +274,6 @@ In this section, we focus on file operations:
 
  - [Code Link](https://github.com/albin-joseph/python/tree/main/037-day)
 
+ In this session we leran more about the method POST, EDIT & DELETE
+
 </details>
