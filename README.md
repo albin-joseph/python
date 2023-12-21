@@ -277,3 +277,11 @@ In this section, we focus on file operations:
  In this session we leran more about the method POST, PUT & DELETE
 
 </details>
+
+### Day 38
+<details>
+<summary>Exercise Tracking with Python and Google Sheets</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/038-day)
+
+</details>
