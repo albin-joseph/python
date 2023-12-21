@@ -9,11 +9,11 @@ COMPANY_NAME = "Tesla Inc"
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-STOCK_API_KEY = "60d73abc075849c8961f36e5210b3cce"
-NEWS_API_KEY = "60d73abc075849c8961f36e5210b3cce"
+STOCK_API_KEY = ""
+NEWS_API_KEY = ""
 
-twilio_account_sid = 'AC45546fd944fd26898c51a69413541ff9'
-twilio_auth_token = 'd0ef10964acef0317c14a6064c1ba931'
+twilio_account_sid = ''
+twilio_auth_token = ''
 
 ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
