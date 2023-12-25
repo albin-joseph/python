@@ -294,3 +294,11 @@ In this section, we focus on file operations:
  - [Code Link](https://github.com/albin-joseph/python/tree/main/039-day)
 
 </details>
+
+### Day 40
+<details>
+<summary>Find Cheapest Flight</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/040-day)
+
+</details>
