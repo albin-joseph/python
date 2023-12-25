@@ -302,3 +302,11 @@ In this section, we focus on file operations:
  - [Code Link](https://github.com/albin-joseph/python/tree/main/040-day)
 
 </details>
+
+### Day 41
+<details>
+<summary>Introduction to HTML</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/041-day)
+
+</details>
