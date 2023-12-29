@@ -311,6 +311,13 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 42
+<details>
+<summary>Web Foundation - Intermediate HTML</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/042-day)
+
+</details>
 
 
 
