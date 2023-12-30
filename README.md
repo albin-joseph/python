@@ -320,4 +320,13 @@ In this section, we focus on file operations:
 </details>
 
 
+### Day 43
+<details>
+<summary>Web Foundation - Introduction to CSS</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/043-day)
+
+</details>
+
+
 
