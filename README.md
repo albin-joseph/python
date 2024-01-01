@@ -328,6 +328,7 @@ In this section, we focus on file operations:
 
 </details>
 
+
 ### Day 44
 <details>
 <summary>Web Foundation - Introduction to CSS</summary>
@@ -335,7 +336,6 @@ In this section, we focus on file operations:
  - [Code Link](https://github.com/albin-joseph/python/tree/main/044-day)
 
 </details>
-
 
 
 
