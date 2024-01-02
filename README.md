@@ -328,7 +328,6 @@ In this section, we focus on file operations:
 
 </details>
 
-
 ### Day 44
 <details>
 <summary>Web Foundation - Introduction to CSS</summary>
