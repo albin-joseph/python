@@ -336,4 +336,12 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 45
+<details>
+<summary>Web Foundation - Web scrapping with beautiful soup</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/045-day)
+
+</details>
+
 
