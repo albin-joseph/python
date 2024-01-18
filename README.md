@@ -344,4 +344,12 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 46
+<details>
+<summary>Musical Time Machine</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/046-day)
+
+</details>
+
 
