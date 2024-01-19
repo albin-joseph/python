@@ -352,4 +352,12 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 47
+<details>
+<summary>Amazone price tracker</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/047-day)
+
+</details>
+
 
