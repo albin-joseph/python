@@ -368,3 +368,11 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 54
+<details>
+<summary>Web development with Flask</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/054-day)
+
+</details>
+
