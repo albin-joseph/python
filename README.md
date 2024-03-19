@@ -384,3 +384,11 @@ In this section, we focus on file operations:
 
 </details>
 
+### Day 56
+<details>
+<summary>Basic HTML Website</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/056-day)
+
+</details>
+
