@@ -392,7 +392,6 @@ In this section, we focus on file operations:
 
 </details>
 
-
 ### Day 57
 <details>
 <summary>Templating with Jinja in Flask Applications</summary>
