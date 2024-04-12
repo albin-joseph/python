@@ -392,12 +392,21 @@ In this section, we focus on file operations:
 
 </details>
 
-
 ### Day 57
 <details>
 <summary>Templating with Jinja in Flask Applications</summary>
 
  - [Code Link](https://github.com/albin-joseph/python/tree/main/057-day)
+
+</details>
+
+
+
+### Day 58
+<details>
+<summary>Basics of Bootstrap</summary>
+
+ - [Code Link](https://github.com/albin-joseph/python/tree/main/058-day)
 
 </details>
 
